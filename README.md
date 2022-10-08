@@ -26,5 +26,3 @@
 
 **animation-fill-mode**
 - Lets you control what happens during delays before an animation starts actively playing, and/or what happens after an animation's duration has ended.
-
----
