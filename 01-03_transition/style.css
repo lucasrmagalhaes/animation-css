@@ -17,7 +17,10 @@ button {
 	font-size: 1rem;
 	text-align: center;
 	text-transform: uppercase;
-    transition: background .3s ease-in, transform .2s .1s ease-in-out;
+    transition: 
+        background .3s ease-in, 
+        transform .2s .1s ease-in-out
+        border-radius .3s ease-in;
 }
 
 button:hover {
@@ -25,4 +28,5 @@ button:hover {
     background:#AEA8D3;
     color: #353535;
     cursor: pointer;
+    border-radius: 20px;
 }
