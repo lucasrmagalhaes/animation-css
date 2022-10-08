@@ -57,3 +57,8 @@
 
 **steps()**
 - Plays an animation back in a defined number of steps, pausing briefly at each, instead of smoothly interpolating between keyframes states.
+
+---
+
+**animation-play-state**
+- Controls whether an animation is playing or paused.

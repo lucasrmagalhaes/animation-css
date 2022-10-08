@@ -24,15 +24,15 @@ body {
     width: 800px;
     height: 650px;
     overflow: hidden;
-    position:relative;
+    position: relative;
 }
   
 .city, .cloud {
-    position:absolute;
+    position: absolute;
 }
   
 .city {
-    z-index:100;
+    z-index: 100;
 }
 
 .city img {
