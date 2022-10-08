@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    background-color: #6F7295;
+    perspective: 1000px;
+    height: 100%;
+}
+  
+.wrap {
+    width: 100%;
+}
+  
+img {
+    width: 300px;
+}
+  
+.robot {
+    transform: rotateX(45deg) rotateY(20deg);
+    /* transform: translate3d(100px, 200px, -100px); */
+}  
