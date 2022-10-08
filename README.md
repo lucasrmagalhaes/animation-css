@@ -62,3 +62,8 @@
 
 **animation-play-state**
 - Controls whether an animation is playing or paused.
+
+---
+
+**transform-origin**
+- The point around which a transformation is applied.
