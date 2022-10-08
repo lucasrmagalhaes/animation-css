@@ -52,3 +52,8 @@
 
 * [cubic-bezier](https://cubic-bezier.com/#.17,.67,.83,.67)
 * [easings](https://easings.net/)
+
+---
+
+**steps()**
+- Plays an animation back in a defined number of steps, pausing briefly at each, instead of smoothly interpolating between keyframes states.

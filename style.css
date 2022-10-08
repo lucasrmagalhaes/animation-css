@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes scaleIn {
+    0% { 
+        transform: scale(0.5); 
+    }
+    
+    85% { 
+        transform: scale(1.1); 
+    }
+    
+    100% { 
+        transform: scale(1); 
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #353535;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Fira Mono', monospace;
+    cursor: default;
+
+    animation-name: scaleIn;
+    animation-duration: 2s;
+}
+
+ol {
+    color: white;
+    list-style: none;
+}
+
+li {
+    max-width: fit-content;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Fira Mono', monospace;
+}
+
+p:hover {
+    cursor: pointer;
+    color: gold;
+}
