@@ -5,18 +5,9 @@
     padding: 0;
 }
 
-@keyframes scaleIn {
-    0% { 
-        transform: scale(0.5); 
-    }
-    
-    85% { 
-        transform: scale(1.1); 
-    }
-    
-    100% { 
-        transform: scale(1); 
-    }
+@keyframes wiggle {
+    50% { transform: translateX(10px) rotate(5deg); }
+    0%, 100% { transform: translateX(-10px) rotate(-5deg); }
 }
 
 body {
@@ -29,12 +20,12 @@ body {
 h1 {
     margin-bottom: 20px;
     text-align: center;
-    color: white;
+    color: #FFF;
     font-family: 'Fira Mono', monospace;
     cursor: default;
 
-    animation-name: scaleIn;
-    animation-duration: 2s;
+    transform-origin: 50% 0%;
+    animation: wiggle 0.6s infinite cubic-bezier(0.65, 0, 0.35, 1);
 }
 
 ol {
@@ -51,7 +42,7 @@ a {
 }
 
 p {
-    color: white;
+    color: #FFF;
     padding: 5px;
     font-weight: bold;
     font-family: 'Fira Mono', monospace;
