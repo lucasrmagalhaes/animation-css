@@ -26,3 +26,9 @@
 
 **animation-fill-mode**
 - Lets you control what happens during delays before an animation starts actively playing, and/or what happens after an animation's duration has ended.
+
+---
+
+**animation-direction**
+- Lets you control what order our keyframes are executed in.
+- Values: normal, reverse, alternate and alternate-reverse.
