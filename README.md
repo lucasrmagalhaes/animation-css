@@ -32,3 +32,23 @@
 **animation-direction**
 - Lets you control what order our keyframes are executed in.
 - Values: normal, reverse, alternate and alternate-reverse.
+
+---
+
+**Easing**
+- Easing is what describes the speed changes of your animation over the course of its duration.
+
+**Three Options for animation-timing-function**
+- Easing keywords
+- The steps() function
+- Custom cubic-bezier curves
+
+**Keyword Easing Options**
+- ease
+- ease-in-out
+- ease-in
+- ease-out
+- linear
+
+* [cubic-bezier](https://cubic-bezier.com/#.17,.67,.83,.67)
+* [easings](https://easings.net/)

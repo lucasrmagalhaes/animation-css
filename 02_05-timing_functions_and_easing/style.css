@@ -2,8 +2,7 @@
     animation-name: move;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    animation-iteration-count: 3;
-    animation-direction: alternate-reverse;
+    animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
 }
   
 @keyframes move {
@@ -11,7 +10,7 @@
         transform: translateX(700%); 
     }
 }
-  
+
 body {
     margin: 3em;
     background-color: #433F55;
