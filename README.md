@@ -112,3 +112,17 @@
 
 **offset-rotate**
 - Defines the orientatio and/or direction of an element as it is positioned along an offset-path.
+
+---
+
+**CSS Custom Properties**
+- Also known as CSS variables; values that you can define and reuse within your CSS document.
+
+**CSS Variables**
+- Can be changed at runtime
+- Follow the CSS cascade
+- Can be easily accessed by JavaScript
+
+**Where to Use CSS Variables**
+- In your @keyfram definitions
+- In the animation properties assignment
