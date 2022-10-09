@@ -50,8 +50,8 @@
 - ease-out
 - linear
 
-* [cubic-bezier](https://cubic-bezier.com/#.17,.67,.83,.67)
-* [easings](https://easings.net/)
+[cubic-bezier](https://cubic-bezier.com/#.17,.67,.83,.67) <br />
+[easings](https://easings.net/)
 
 ---
 
@@ -67,3 +67,9 @@
 
 **transform-origin**
 - The point around which a transformation is applied.
+
+---
+
+**Tip**
+- Look for distinct and complete shapes for the objects you want to animate.
+- Name the layers and/or paths you'll be animating so it's easier to find them later.
