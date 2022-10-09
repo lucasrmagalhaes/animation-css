@@ -98,3 +98,11 @@
 ---
 
 [GreenSock](https://greensock.com/)
+
+---
+
+**CSS Motion Path**
+- With offset-path.
+
+**offset-path**
+- Specifies a path for an element to follow or be placed along.
