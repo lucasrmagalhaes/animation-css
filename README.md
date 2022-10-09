@@ -73,3 +73,26 @@
 **Tip**
 - Look for distinct and complete shapes for the objects you want to animate.
 - Name the layers and/or paths you'll be animating so it's easier to find them later.
+
+---
+
+**Different Tools Surface Different Options**
+- We'll be covering the most common export options, but the export options vary from tool to tool.
+
+**SVG Export Options**
+- Presentation attributes or internal CSS?
+- Linked or embedded images?
+- Minifed file?
+
+**Internal CSS or Presentation Attributes?**
+- This one is up to personal preference.
+
+**Linked or Embedded Images?**
+- Linked images is the most flexible option. Embedding images in your SVG can greatly increase the file size.
+
+**Minify the Exported File?**
+- Working with a minified file for animation can be extremely difficult. Wait until your animation is complete to minify your SVG.
+
+[SVGOMG](https://jakearchibald.github.io/svgomg/)
+
+---
