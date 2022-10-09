@@ -106,3 +106,9 @@
 
 **offset-path**
 - Specifies a path for an element to follow or be placed along.
+
+**offset-distance**
+- Specifies a position along an offset-path for an element to be placed.
+
+**offset-rotate**
+- Defines the orientatio and/or direction of an element as it is positioned along an offset-path.
