@@ -126,3 +126,20 @@
 **Where to Use CSS Variables**
 - In your @keyfram definitions
 - In the animation properties assignment
+
+---
+
+**Variable Font**
+- A font file that is able to store a continuous range of design variants.
+
+**font-variation-settings Property**
+- Provides low-level control over variable fonts based on the axis and characteristics available in a given font.
+
+[WakamaiFondue - Drop a font!](https://wakamaifondue.com/) <br />
+[Recursive Sans & Mono](https://www.recursive.design/)
+
+**Notes about Animating Variable Fonts**
+- The axes and ranges of characteristics available to animate depend on the font itself.
+- Animating variable fonts is (currently) not hardware accelerated, which may cause poor performance.
+
+[Animating variable fonts with CSS](https://valhead.com/2020/11/15/animating-variable-fonts-with-css/)

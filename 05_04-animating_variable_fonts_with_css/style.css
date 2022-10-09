@@ -1,0 +1,51 @@
+:root {
+    --dur: 10s;
+}
+
+@keyframes vars {
+    0% { font-variation-settings: "MONO" 0, "CASL" 1, "CRSV" 0, "wght" 1000, "slnt" 0; }
+    25% { font-variation-settings: "MONO" 0, "CASL" 0, "CRSV" 0, "wght" 600, "slnt" 0; } 
+    50% { font-variation-settings: "MONO" 0, "CASL" 1, "CRSV" 0, "wght" 600, "slnt" -15; } 
+    75% { font-variation-settings: "MONO" 0, "CASL" 0, "CRSV" 1, "wght" 300, "slnt" -10; } 
+    100% { font-variation-settings: "MONO" 0, "CASL" 1, "CRSV" 0, "wght" 1000, "slnt" 0; }
+}
+  
+@font-face {
+    font-family: 'Recursive VF';
+    font-style: oblique -15deg 0deg; 
+    font-weight: 300 1000;
+    font-display: swap;
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/13034/Recursive_VF_1.043--subset_range_english_basic.woff2') format('woff2');
+}
+  
+h1 {
+    font-size: 30rem;
+    font-variation-settings: "MONO" 0, "CASL" 0, "CRSV" 0, "wght" 1000, "slnt" 0;
+    background: -webkit-linear-gradient(#FF29BF, #7100FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #B000FF; 
+    
+    animation: vars var(--dur) infinite linear both;
+}
+  
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: "Recursive VF", sans-serif;
+    background: black;
+    margin: 0;
+    border: 0 none;
+    padding: 0;
+}
