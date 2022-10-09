@@ -1,0 +1,43 @@
+#heartfill {
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    animation: 
+        beat .8s linear,
+        fade 0.25s reverse both;
+}
+  
+#outline {
+    animation: fade .25s .4s linear both;
+} 
+   
+@keyframes beat {
+    0% { transform: scale(0.1); }
+    80% { transform: scale(1.25); }
+    100% { transform: scale(1); }
+}
+  
+@keyframes fade {
+    0% { opacity: 1; }    
+    100% { opacity: 0; }
+}
+  
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    background: #FBACB3;
+}
+  
+.wrap {
+    width:15vw;
+    display: flex;
+}
+  
+.cls-1 {
+    fill: #C32D4F;
+}
+  
+.cls-2 {
+    fill: none;
+    stroke: #C32D4F;
+}
