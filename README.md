@@ -143,3 +143,9 @@
 - Animating variable fonts is (currently) not hardware accelerated, which may cause poor performance.
 
 [Animating variable fonts with CSS](https://valhead.com/2020/11/15/animating-variable-fonts-with-css/)
+
+---
+
+[Animate.css](https://animate.style/) <br />
+[AnimXYZ](https://animxyz.com/) <br />
+[Animista](https://animista.net/)
